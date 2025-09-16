@@ -5,7 +5,7 @@ echo "file install.sh"
 echo "Making some preparations"
 
 sudo sed -i 's/enabled=1/enabled=0/g' /etc/yum.repos.d/fedora-cisco-openh264.repo
-sudo dnf swap *\openh264\* noopenh264  --allowerasing
+sudo dnf swap *\openh264\* noopenh264  --allowerasing -y
 
 sudo dnf update -y
 
