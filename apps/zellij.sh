@@ -1,5 +1,5 @@
-sudo dnf copr enable varlad/zellij 
-sudo dnf install zellij
+sudo dnf copr enable varlad/zellij -y
+sudo dnf install zellij -y
 
 
 mkdir ~/.config/zellij
