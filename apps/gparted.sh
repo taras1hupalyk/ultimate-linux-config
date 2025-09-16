@@ -1,1 +1,1 @@
-sudo dnf install gparted
+sudo dnf install gparted -y
