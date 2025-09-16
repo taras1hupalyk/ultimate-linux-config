@@ -16,23 +16,27 @@ echo "--------------------------------------------------------------------------
 
 for app in ./apps/*.sh ; 
 do 
+    cd ./apps
     echo Working on $app
 
     source $app;
 
     echo "Done"
     echo "---------------------------------------------------------------------------------------------------"
+    cd ..
 done
 
 
 for setting in ./system-settings/*.sh ; 
 do 
+    cd ./system-settings
     echo Working on $setting
 
     source $setting; 
 
     echo "Done"
     echo "---------------------------------------------------------------------------------------------------";
+    cd ..
 done
 
 
