@@ -1,1 +1,1 @@
-dnf install easyeffects
+sudo dnf install easyeffects

@@ -4,7 +4,7 @@ if [[ "$XDG_CURRENT_DESKTOP" != *GNOME* ]]; then
 fi
 
 
-gsettings set org.gnome.desktop.peripherals.keyboard numlock-state true
+sudo gsettings set org.gnome.desktop.peripherals.keyboard numlock-state true
 
 
-gsettings set org.gnome.desktop.peripherals.keyboard remember-numlock-state true
+sudo gsettings set org.gnome.desktop.peripherals.keyboard remember-numlock-state true

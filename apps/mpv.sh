@@ -1,1 +1,1 @@
-dnf install mpv
+sudo dnf install mpv

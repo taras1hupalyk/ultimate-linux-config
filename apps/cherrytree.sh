@@ -1,2 +1,2 @@
-dnf copr enable bcotton/cherrytree -y 
-dnf install cherrytree -y
+sudo dnf copr enable bcotton/cherrytree -y 
+sudo dnf install cherrytree -y

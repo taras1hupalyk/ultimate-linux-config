@@ -1,2 +1,2 @@
 
-dnf install git vim  -y
+sudo dnf install git vim  -y
