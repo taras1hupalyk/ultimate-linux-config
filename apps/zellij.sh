@@ -3,5 +3,5 @@ sudo dnf install zellij -y
 
 
 mkdir ~/.config/zellij
-cp ../configs/zellij/config.kdl ~/.config/zellij/
+cp ./configs/zellij/config.kdl ~/.config/zellij/
 
