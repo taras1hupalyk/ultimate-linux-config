@@ -1,6 +1,6 @@
 
 
-mv ./configs/ms-edge/microsoft-edge.repo /etc/yum.repos.d/
+sudo mv ./configs/ms-edge/microsoft-edge.repo /etc/yum.repos.d/
 
 sudo yum update -y
 sudo yum install microsoft-edge-stable -y

@@ -1,6 +1,6 @@
 
 
-culr -o ./apps/tmp/vscode.rpm https://code.visualstudio.com/docs/?dv=linux64_rpm
+curl -o /tmp/vscode.rpm https://code.visualstudio.com/docs/?dv=linux64_rpm
 
-sudo dnf install ./apps/tmp/vscode.rpm -y
+sudo dnf install /tmp/vscode.rpm -y
 

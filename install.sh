@@ -37,4 +37,4 @@ done
 
 
 echo "Cleaning some temporary files"
-sudo rsync -a --delete --info=progress2 /var/empty ./apps/tmp
+sudo rsync -a --delete --info=progress2 /var/empty/ /tmp

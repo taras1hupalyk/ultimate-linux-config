@@ -1,9 +1,7 @@
-curl -o ./apps/tmp/telegram.tar.xz  https://telegram.org/dl/desktop/linux
+wget -O  https://telegram.org/dl/desktop/linux /tmp/telegram.tar.xz 
 
 
-cd ./apps/tmp    
-tar -xvf telegram.tar.xz
+tar -xvf /tmp/telegram.tar.xz -C /tmp
 
 
-mv Telegram ~/Downloads/Apps
-cd ../../
+mv /tmp/Telegram ~/Downloads/Apps
