@@ -7,4 +7,4 @@ fi
 image_path=$( realpath ./wallpapers/4k-Traditional-Japanese-Scene-With-Vivid-Red-Autumn.jpg)
 
 
-sudo  gsettings set org.gnome.desktop.background picture-uri file://$image_path
+gsettings set org.gnome.desktop.background picture-uri file://$image_path
